@@ -1,0 +1,216 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* here is about logo  */
+.logo
+ {
+    height: 100px;
+    width: 100px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* navigation is starting from here  */
+
+.nav_bar {
+    background-color: rgba(0, 0, 0, 0.397);
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_bar a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav_bar a:hover {
+    color: #F4B400;
+}
+
+.logo p {
+    color: #F4B400;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.search_box {
+    margin-right: 50px;
+}
+
+.search_box input {
+    height: 26px;
+    width: 200px;
+    border-radius: 6px;
+    border: 1px solid #F4B400;
+}
+
+.search_box input :active {
+    border: 1px solid #F4B400;
+}
+
+.search_box button {
+    background-color: #F4B400;
+    height: 26px;
+    width: 60px;
+    border-radius: 7px;
+    border: 1px solid black;
+
+}
+
+.search_box button:active {
+    background-color: #e8d297;
+}
+
+/* This is hero section  */
+.section_1{
+    height: 400px;
+    width: 100%;
+    background-color: orange;
+    background-image: url("hero_sec.jpg");
+    background-size:contain;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+ .p_1_sec_1{
+    background-color: white;
+    height: 40px;
+    width: 80%;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin-bottom:20px;
+
+ }
+ .p_1_sec_1 a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.397);
+
+ }
+ .p_1_sec_1 a{
+    text-decoration: none;
+    color:#F4B400;
+
+ }
+
+ /* now main are i.e shopping area is starting from here  */
+
+ .all_boxes{
+height:880px;
+width: 100%;
+background-color: rgba(0, 0, 0, 0.397);
+margin-top: 30px;
+ display: flex;
+ justify-content: space-evenly;
+ flex-wrap: wrap;
+ }
+
+ .box
+ {
+    height:380px;
+    width: 23%;
+    background-color:white;
+     /* border-radius:10px solid #F4B400; */
+    margin-top:30px;
+ }
+
+
+ #box_1
+ {
+
+background-color: white;
+/* display: flex;
+justify-content: center;
+align-items: center; */
+ border-radius:8px solid #F4B400;
+
+ }
+ #box_1 h2
+ {
+ margin-left:15px;
+ }
+
+
+ #box_1_img{
+    height:330px;
+    width:260px;
+    background-image: url("box_1.jpeg");
+    background-size: cover;
+    margin-left: 15px;
+    
+ }
+
+  #box_1 a{
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.525);
+    padding-left:15px;
+    margin-bottom: 50px;
+  }
+  
+  /* footer of the page  */
+.footer_container{
+    margin-top: 30px;
+    height:300px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.397);
+    display: flex;
+    justify-content:space-around;
+}
+
+.footer_1 h2{
+    
+    color:#F4B400;
+}
+.footer_1 a{
+    color: white;
+    text-decoration: none;
+    list-style:none;
+}
+.footer_1 a:hover{
+    
+    color:#F4B400;
+}
+
+
+.footer_1 {
+    
+    line-height: 40px;
+    color: white;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.copyright{
+    border-top:1px solid rgba(0, 0, 0, 0.701);
+    height:50px;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.582);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+
+
