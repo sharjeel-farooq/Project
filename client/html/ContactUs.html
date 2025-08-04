@@ -8,6 +8,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" type="image/x-icon" href="/client/assets/logo_ico_32.ico">
     <link href="/client/css/Shifafo_style.css" rel="stylesheet">
+    <link href="/client/css/contact.css" rel="stylesheet">
     <title>Contact Us</title>
 </head>
 <body>
@@ -41,8 +42,21 @@
     </header>
 
     <main>
-        <!-- You should remove this div because I was writting this only to vissible the page -->
-        <div style="height: 500px;"></div>
+        <div class="contact-page">
+            <div class="contact">
+                <div class="contact-content">
+                    <form>
+                        <h3>Name</h3>
+                        <input type="text" placeholder="Name" class="contact-input">
+                        <h3>Email</h3>
+                        <input type="email" placeholder="abc@gmail.com" class="contact-input">
+                        <h3>Description</h3>
+                        <textarea name ="description" class="contact-input description" placeholder="Please write your discription here"></textarea>
+                        <br><input type="submit" class="contact-input contact-button">
+                    </form>
+                </div>
+            </div>
+        </div>
     </main>
     
     <footer>
