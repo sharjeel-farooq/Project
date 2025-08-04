@@ -5,8 +5,7 @@
 }
 
 /* here is about logo  */
-.logo
- {
+.logo {
     height: 100px;
     width: 100px;
     margin-left: 0px;
@@ -79,19 +78,19 @@
 }
 
 /* This is hero section  */
-.section_1{
+.section_1 {
     height: 400px;
     width: 100%;
     background-color: orange;
     background-image: url("hero_sec.jpg");
-    background-size:contain;
+    background-size: contain;
     display: flex;
     justify-content: center;
     align-items: flex-end;
 }
 
 
- .p_1_sec_1{
+.p_1_sec_1 {
     background-color: white;
     height: 40px;
     width: 80%;
@@ -99,118 +98,314 @@
     text-align: center;
     display: flex;
     justify-content: center;
-    align-items: center;    
-    margin-bottom:20px;
+    align-items: center;
+    margin-bottom: 20px;
 
- }
- .p_1_sec_1 a {
+}
+
+.p_1_sec_1 a {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.397);
 
- }
- .p_1_sec_1 a{
+}
+
+.p_1_sec_1 a {
     text-decoration: none;
-    color:#F4B400;
+    color: #F4B400;
 
- }
+}
 
- /* now main are i.e shopping area is starting from here  */
+/* now main are i.e shopping area is starting from here  */
 
- .all_boxes{
-height:880px;
-width: 100%;
-background-color: rgba(0, 0, 0, 0.397);
-margin-top: 30px;
- display: flex;
- justify-content: space-evenly;
- flex-wrap: wrap;
- }
+.all_boxes {
+    height: 880px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.397);
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
 
- .box
- {
-    height:380px;
+.box {
+    height: 380px;
     width: 23%;
-    background-color:white;
-     /* border-radius:10px solid #F4B400; */
-    margin-top:30px;
- }
+    background-color: white;
+    /* border-radius:10px solid #F4B400; */
+    margin-top: 30px;
+}
 
 
- #box_1
- {
+#box_1 {
 
-background-color: white;
-/* display: flex;
+    background-color: white;
+    /* display: flex;
 justify-content: center;
 align-items: center; */
- border-radius:8px solid #F4B400;
+    border-radius: 8px solid #F4B400;
 
- }
- #box_1 h2
- {
- margin-left:15px;
- }
+}
+
+#box_1 h2 {
+    margin-left: 15px;
+}
 
 
- #box_1_img{
-    height:330px;
-    width:260px;
+#box_1_img {
+    height: 330px;
+    width: 260px;
     background-image: url("box_1.jpeg");
     background-size: cover;
     margin-left: 15px;
-    
- }
 
-  #box_1 a{
+}
+
+#box_1 a {
     text-decoration: none;
-    color:rgba(0, 0, 0, 0.525);
-    padding-left:15px;
+    color: rgba(0, 0, 0, 0.525);
+    padding-left: 15px;
     margin-bottom: 50px;
-  }
-  
-  /* footer of the page  */
-.footer_container{
+}
+
+/* footer of the page  */
+.footer_container {
     margin-top: 30px;
-    height:300px;
+    height: 300px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.397);
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
 }
 
-.footer_1 h2{
-    
-    color:#F4B400;
+.footer_1 h2 {
+
+    color: #F4B400;
 }
-.footer_1 a{
+
+.footer_1 a {
     color: white;
     text-decoration: none;
-    list-style:none;
+    list-style: none;
 }
-.footer_1 a:hover{
-    
-    color:#F4B400;
+
+.footer_1 a:hover {
+
+    color: #F4B400;
 }
 
 
 .footer_1 {
-    
+
     line-height: 40px;
     color: white;
     list-style: none;
     margin-top: 20px;
 }
 
-.copyright{
-    border-top:1px solid rgba(0, 0, 0, 0.701);
-    height:50px;
+.copyright {
+    border-top: 1px solid rgba(0, 0, 0, 0.701);
+    height: 50px;
     width: 100%;
-    background-color:rgba(0, 0, 0, 0.582);
+    background-color: rgba(0, 0, 0, 0.582);
     text-align: center;
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
 }
 
+/* Login page is starting from here  */
+.page_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.page {
+    height: 500px;
+    width: 40%;
+    background-color:rgba(0, 0, 0, 0.048);
+    border-radius:15px;
+    box-shadow: 5px 5px 10px #F4B400;
+
+}
+
+
+.page form label {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 80px;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+
+.page form input {
+    display: flex;
+    flex-direction: column;
+     margin-left: 100px;
+     height: 40px;
+     width:300px;
+     border-radius:8px;
+     border: 0.5px solid orange
+}
+.form_button
+ {
+   background-color:#F4B400;
+   margin-left:100px;
+   margin-top:70px;
+   width:300px;
+   height: 35px;
+   border-radius:8px;
+   border: 1px;
+
+ }
+
+.form_button:hover{
+    background-color: orange;
+}
+
+.forget_password
+{
+    margin-top: 30px;
+    text-align: center;
+    /* margin-left: 50px; */
+}
+.forget_password a:hover{
+    color: #F4B400;
+}
+
+/* sign-UP page is starting from here  */
+
+.S_U_page{
+    height: 600px;
+    width: 45%;
+    background-color:rgba(0, 0, 0, 0.048);
+    border-radius:15px;
+    box-shadow: 5px 5px 10px #F4B400;
+
+}
+
+
+.S_U_page form label
+ {
+    display: flex;
+    flex-direction: column;
+    margin-left: 140px;
+    margin-top: 50px;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+
+
+.S_U_page form input {
+    display: flex;
+    flex-direction: column;
+     margin-left: 140px;
+     height: 40px;
+     width:300px;
+     border-radius:8px;
+     border: 0.5px solid orange
+}
+
+.S_U_form_button
+ {
+   background-color:#F4B400;
+   margin-left:140px;
+   margin-top:40px;
+   width:300px;
+   height: 35px;
+   border-radius:8px;
+   border: 1px;
+ }
+ .S_U_form_button:hover{
+background-color: orange;
+ }
+
+
+/* contact us page is starting from here  */
+.C_U_page{
+    height: 600px;
+    width: 45%;
+    background-color:rgba(0, 0, 0, 0.048);
+    border-radius:15px;
+    box-shadow: 5px 5px 10px #F4B400;
+
+}
+
+
+.C_U_page form label
+ {
+    display: flex;
+    flex-direction: column;
+    margin-left: 140px;
+    margin-top: 50px;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+
+.C_U_page form input {
+    display: flex;
+    flex-direction: column;
+     margin-left: 140px;
+     height: 40px;
+     width:300px;
+     border-radius:8px;
+     border: 0.5px solid orange;
+}
+
+.C_U_form_button
+ {
+   background-color:#F4B400;
+   margin-left:130px;
+   margin-top:40px;
+   width:300px;
+   height: 35px;
+   border-radius:8px;
+   border: 1px;
+ 
+ }
+ form textarea{
+    height:100px;
+    width:450px;
+    border-radius: 6px;
+    margin-left:60px;
+    border: 0.5px solid #F4B400;
+    margin-top:60px;
+    font-size: 20px;
+    padding-left:5px;
+    padding-top:4px;
+ }
+
+ .C_U_form_button:hover{
+background-color: orange;
+ }
+
+ /* Add to cart option is starting from here  */
+
+ .cart_first{
+    height: 30px;
+    width: 50%;
+    background-color: wheat;
+    margin-top:10px;
+    margin-left: 20px;
+    font-size:14px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-radius:3px;
+ }
+.cart_first a {
+    text-decoration: none;
+    color:black;
+    margin-right: 5px;
+}
+.s_items2 {
+    transform: scale(1.5);
+    margin-left: 20px;
+}
 
 
