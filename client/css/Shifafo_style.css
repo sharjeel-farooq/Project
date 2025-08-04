@@ -1,0 +1,355 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+
+body 
+{
+    background-color: #f2f2f2;
+    color: white;
+}
+
+.navbar
+{
+    height: 80px;
+    background-color: black;
+    opacity: 0.8;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* box1 */
+.nav-logo
+{
+    height: 50px;
+    width: 140px;
+    padding: 5px;
+    display: flex;
+}
+
+.logo
+{
+    background-image: url("/client/assets/shifafo_logo.png");
+    background-size: contain;
+    height: 47px;
+    width: 43px;
+    border-radius: 40%;
+}
+
+.nav-logo p
+{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 27px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* box2 */
+.nav-search
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.search-input
+{
+    height: 50px;
+    width: 700px;
+    font-size: 1rem;
+    padding-left: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    color:black;
+}
+
+.search-input:hover
+{
+    border: 2px solid orange;
+}
+
+.search-icon
+{
+    height: 50px;
+    width: 50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: orange;
+    opacity: 1;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px; 
+    color: black;
+}
+
+.icon-color
+{
+    color: black; 
+}
+
+/* Box3 */
+.nav-buttons
+{
+    height: 100px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button
+{
+    height: 50px;
+    width: 100px;
+    background-color: orange;
+    opacity: 1;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-right: 10px;
+}
+
+.button:hover
+{
+    background-color: darkorange;
+    color: white;
+} 
+
+.panel
+{
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    opacity: 0.7;
+}
+
+a
+{
+    color:#f2f2f2;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color:darkorange;
+}
+
+/* Main section */
+
+/* carousel */
+.carousel {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 450px;
+    margin: 0px 5px 100px 0px;
+}
+
+.blur-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.1) 70%,
+    rgba(255, 255, 255, 0.2) 80%,
+    rgba(255, 255, 255, 0.3) 90%,
+    rgba(255, 255, 255, 1) 100%
+  );
+    pointer-events: none;
+    z-index: 10;
+}
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    min-width: 100%;
+}
+
+.slide {
+    min-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+}
+
+.slide.active {
+    display: block;
+}
+
+.carousel button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-100%);
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+    margin: 2px;
+    border-radius: 50%;
+    background: transparent;
+}
+
+.arrows {
+    background: transparent;
+    border-radius: 50%;
+    color: gray;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+/* Overlay content for carousel */
+.overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 20;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    pointer-events: none;
+}
+
+.essentials {
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.essentials-cards {
+    display: flex;
+    flex-direction: column;
+    margin-top: 590px;
+    padding: 20px;
+    width: 350px;
+    color: black;
+    min-height: 300px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #ccc;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.essentials-images {
+    align-content: center;
+    width: 100%;
+    height: auto;
+    display: block;
+    max-height: 200px;
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+
+/* shoping boxes */
+.shop-section
+{
+    background-color: #e2e7e6;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 240px;
+}
+
+.box
+{
+    height: 400px;
+    width: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    /* border: 2px solid black; */
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 15px 0px 20px;
+}
+
+.box-image
+{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+}
+
+.box-content
+{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p
+{
+    color: #007185;
+}
+
+/* footer */
+
+.foot-panel1
+{
+    height: 400px;
+    background-color: black;
+    opacity: 0.7;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foot-panel1 p
+{
+    margin-top: 50px;
+    font-weight: 700;
+}
+
+.foot-panel1 a
+{
+    display: block;
+    margin-top: 15px;
+}
+
+.foot-panel2
+{
+    height: 80px;
+    background-color: black;
+    opacity: 0.8;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.pages
+{
+    padding-top: 25px;
+}
+
+.pages a
+{
+    margin-right: 15px;
+}
+
+.copyright
+{
+    padding-top: 5px;
+}

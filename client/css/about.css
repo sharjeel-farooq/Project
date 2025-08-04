@@ -1,0 +1,47 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+
+main 
+{
+    background-color: #f2f2f2;
+    color: black;
+}
+
+.about_us_1{
+    height:600px;
+    width: 100%;
+    background-color:orange;
+
+}
+h1{
+    margin-top:30px;
+    font-family:serif;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 2.4rem;
+}
+.title{
+    font-weight: bold;
+    color:#F4B400;
+    text-align:center;
+    margin-bottom:20px;
+}
+.paragraph{
+    height: 120px;
+    width: 80%;
+    background-color:rgba(245, 245, 245, 0.66);
+    line-height:30px;
+    margin-left:115px;
+    border-radius:20px;
+    padding: 40px 10px 20px 25px;
+    box-shadow: 10px 10px 10px orange;
+    margin-bottom: 50px;
+}
+
+
+

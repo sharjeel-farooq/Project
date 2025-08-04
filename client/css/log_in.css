@@ -1,0 +1,114 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial; 
+}
+
+main
+{
+    background-color: #e2e7e6;
+}
+
+.log-in-page
+{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.log-in
+{
+    height: 550px;
+    width: 500px;
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 10px orange;
+}
+
+.log-in:hover
+{
+    border: 2px solid orange;
+}
+
+.log-in-content
+{
+    height: 480px;
+    width: 380px;
+    background-color: white;
+    opacity: 0.9;
+    text-align: center;
+    color: black;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.log-in-content form
+{
+    background-color: white;
+    opacity: 0.9;
+}
+
+.log-in-content h3
+{
+    font-size: 1rem;
+    background-color: white;
+    opacity: 0.9;
+    text-align: left;
+    margin-top: 60px;
+    padding-left: 10px;
+}
+
+.log-in-input
+{
+    height: 40px;
+    width: 350px;
+    margin-top: 5px;
+    padding-left: 5px;
+    border-radius: 5px;
+    background-color: white;
+    opacity: 0.9;
+}
+
+.log-in-input:hover
+{
+    border: 2px solid orange;
+}
+
+.log-in-input::placeholder
+{
+    font-weight: bolder;
+}
+
+.login
+{
+    margin-top: 70px;
+    margin-bottom: 20px;
+    width: 150px;
+    font-size: 16px;
+    font-weight: bolder;
+    background-color: orange;
+    opacity: 1;
+    border: none;
+}
+
+.login:hover
+{
+    background-color: darkorange;
+    color: white;
+}
+
+.log-in-content a
+{
+    color: purple;
+    text-decoration: underline;
+    display: inline;
+}
