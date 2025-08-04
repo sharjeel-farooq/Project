@@ -6,12 +6,20 @@
     border: border-box;
 }
 
-body 
+
+html, body {
+    overflow-x: hidden;
+}
+
+body
 {
     background-color: #f2f2f2;
     color: white;
 }
 
+main {
+    background-color: #e1e0e0;
+}
 .navbar
 {
     height: 80px;
@@ -152,9 +160,9 @@ a:hover
 .carousel {
     display: flex;
     position: relative;
-    width: 100%;
+    width: 99%;
     height: 450px;
-    margin: 0px 5px 100px 0px;
+    margin: 0 5px 100px 7px;
 }
 
 .blur-bottom {
@@ -194,7 +202,7 @@ a:hover
 .carousel button {
     position: absolute;
     top: 50%;
-    transform: translateY(-100%);
+    transform: translateY(-50%);
     border: none;
     cursor: pointer;
     z-index: 10;
@@ -308,6 +316,10 @@ a:hover
 }
 
 /* footer */
+
+footer {
+    margin-bottom: 0;
+}
 
 .foot-panel1
 {

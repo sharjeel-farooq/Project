@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="/client/assets/logo_ico_32.ico">
+    <link href="/client/css/products.css" rel="stylesheet">
+    <link href="/client/css/Shifafo_style.css" rel="stylesheet">
+    <script src="/client/js/Shifafo_javascript.js"></script>
+    <title>Shifafo</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo">
+                <div class="logo"></div>
+                <p>Shifafo</p>
+            </div>
+
+            <div class="nav-search">
+                <input type="search" placeholder="Search Shifafo" class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass icon-color"></i>
+                </div>
+            </div>
+
+            <div class="nav-buttons">
+                <button onclick="window.location.href='sign_up.html'" class="signup-button button">Sign Up</button>
+                <button onclick="window.location.href='log_in.html'" class="Login-button button">Log In</button>
+            </div>
+        </div>
+
+        <div class="panel">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="ContactUs.html">Contact Us</a>
+            <a href="MyCart.html">My Cart</a>
+            <a href="#">Toggle Mode</a>
+        </div>
+    </header>
+
+
+    <!-- Main content. -->
+    <main class="main-container">
+        <hr>
+        <div class="content-wrapper">
+            <!-- Sidebar Filters -->
+            <aside class="filters-box">
+                <div class="filter-group">
+                    <h4 class="filters">Category</h4>
+                    <label class="filters"><input type="checkbox" value="electronics"> Electronics</label><br>
+                    <label class="filters"><input type="checkbox" value="fashion"> Fashion</label><br>
+                    <label class="filters"><input type="checkbox" value="home"> Home</label>
+                </div>
+
+                <div class="filter-group">
+                    <h4 class="filters">Brand</h4>
+                    <label class="filters"><input type="checkbox" value="brand1"> Brand 1</label><br>
+                    <label class="filters"><input type="checkbox" value="brand2"> Brand 2</label>
+                </div>
+            </aside>
+
+            <!-- Main Content -->
+            <section class="products-section">
+            <!-- Sorting -->
+            <div class="sort-bar">
+                <label for="sort">Sort by:</label>
+                <select id="sort">
+                <option value="default">Best match</option>
+                <option value="low-to-high">Price: Low to High</option>
+                <option value="high-to-low">Price: High to Low</option>
+                </select>
+            </div>
+
+            <!-- Product Cards -->
+            <div class="product-card">
+                <div class="card" href="#">
+                    <img class="product-image" src="images/shoe.jpg" alt="Product Image">
+                    <h3 class="product-title">Nike Air Max</h3>
+                    <p class="product-price">$120</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="card" href="#">
+                    <img class="product-image" src="images/shoe.jpg" alt="Product Image">
+                    <h3 class="product-title">Nike Air Max</h3>
+                    <p class="product-price">$120</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="card" href="#">
+                    <img class="product-image" src="images/shoe.jpg" alt="Product Image">
+                    <h3 class="product-title">Nike Air Max</h3>
+                    <p class="product-price">$120</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="card" href="#">
+                    <img class="product-image" src="images/shoe.jpg" alt="Product Image">
+                    <h3 class="product-title">Nike Air Max</h3>
+                    <p class="product-price">$120</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            </section>
+        </div>
+    </main>
+
+    
+    <footer>
+        <div class="foot-panel1">
+            <ul>
+                <p>Get to Know Us</p>
+                <a>Careers</a>
+                <a>Blog</a>
+                <a>About Amazon</a>
+                <a>Investor Relations</a>
+                <a>Amazon Devices</a>
+                <a>Amazon Science</a>
+            </ul>
+            <ul>
+                <p>Make Money with Us</p>
+                <a>Sell products on Amazon</a>
+                <a>Sell on Shifafo Business</a>
+                <a>Sell apps on Shifafo</a>
+                <a>Become an Affiliate</a>
+                <a>Advertise Your Products</a>
+                <a>Self-Publish with Us</a>
+                <a>Host an Shifafo Hub</a>
+            </ul>
+            <ul>
+                <p>Shifafo Payment Products</p>
+                <a>Shifafo Business Card</a>
+                <a>Shop with Points</a>
+                <a>Reload Your Balance</a>
+                <a>Shifafo Currency Converter</a>
+            </ul>
+            <ul>
+                <p>Let Us Help You</p>
+                <a>Shifafo and COVID-19</a>
+                <a>Your Account</a>
+                <a>Your Orders</a>
+                <a>Shipping Rates & Policies</a>
+                <a>Returns & Replacements</a>
+                <a>Manage Your Content and Devices</a>
+                <a>Help</a>
+            </ul>
+        </div>
+        <div class="foot-panel2">
+            <div class="pages">
+                <a>Conditions of Use</a>
+                <a>Privacy Notice</a>
+                <a>Your Ads Privacy Choices</a>
+            </div>
+            <div class="copyright">
+                &#169; 2025, Shifafo.com, Inc. or its affiliates
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
