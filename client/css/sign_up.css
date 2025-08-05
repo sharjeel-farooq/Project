@@ -78,11 +78,24 @@ main
     border-radius: 5px;
     background-color: white;
     opacity: 0.9;
+    border: 1px solid black;
+}
+
+@keyframes borderAnimate
+{
+    from
+    {
+        border: 2px solid orange;
+    }
+    to
+    {
+        border: 2px solid orange;
+    }
 }
 
 .sign-up-input:hover
 {
-    border: 2px solid orange;
+    animation: borderAnimate 3s ease-in 0.5s infinite normal;
 }
 
 .sign-up-input::placeholder

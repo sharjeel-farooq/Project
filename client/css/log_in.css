@@ -57,6 +57,11 @@ main
     opacity: 0.9;
 }
 
+.log-in-content h2
+{
+    font-size: 2rem;
+}
+
 .log-in-content h3
 {
     font-size: 1rem;
@@ -76,6 +81,7 @@ main
     border-radius: 5px;
     background-color: white;
     opacity: 0.9;
+    border: 1px solid black;
 }
 
 .log-in-input:hover
