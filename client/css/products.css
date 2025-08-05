@@ -41,10 +41,25 @@ hr {
     background-color: #f4f4f4;
     border-radius: 8px;
     padding-top: 0;
+    position: sticky;
+    text-align: left;
+    padding-left: 30px;
 }
 
 .filter-group {
-    margin: 25px 0;
+    margin: 15px 0;
+    text-align: left;
+}
+
+.filter-group h4 {
+    text-align: left;
+    margin-bottom: 2px;
+}
+
+.filter-group label {
+    text-align: left;
+    display: block;
+    margin-bottom: 0;
 }
 
 /* Main product area */
@@ -85,7 +100,27 @@ hr {
     width: 230px;
     height: 200px;
     transition: box-shadow 0.3s ease, transform 0.3s ease;
+    position: relative;
 }
+.card-bottom {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.product-price {
+    text-align: left;
+    flex: 1;
+    margin: 0;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
 
 .card:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -97,7 +132,8 @@ hr {
     border-radius: 5px;
     border: 1px solid black;
     padding: 5px;
-    
+    margin-left: 10px;
+    text-align: right;
 }
 
 .add-to-cart:hover {
