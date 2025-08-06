@@ -69,6 +69,11 @@ main
     padding-left: 10px;
 }
 
+#message
+{
+    color: red;
+}
+
 .sign-up-input
 {
     height: 40px;

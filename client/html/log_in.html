@@ -8,6 +8,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="/client/css/log_in.css" rel="stylesheet">
     <link href="/client/css/Shifafo_style.css" rel="stylesheet">
+    <script src="/client/js/log_in.js"></script>
     <title>Log In</title>
 </head>
 <body>
@@ -46,10 +47,11 @@
                     <form>
                         <h2>Log In</h2>
                         <h3>Email</h3>
-                        <input type="email" placeholder="abc@gmail.com" class="log-in-input">
+                        <input type="email" name="email" id="logInEmail" placeholder="abc@gmail.com" class="log-in-input">
                         <h3>Password</h3>
-                        <input type="password" placeholder="Password" class="log-in-input">
-                        <button class="log-in-input login"> Log in </button>
+                        <input type="password" name="password" id="logInPassword" placeholder="Password" class="log-in-input">
+                        <input type="submit" class="log-in-input login" value="Log In">
+                        <p id="message"></p>
                         <br><a href="#">Forget Password</a>
                         or
                         <a href="/client/html/sign_up.html">Click here to create account</a>
