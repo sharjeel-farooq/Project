@@ -8,6 +8,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" type="image/x-icon" href="/client/assets/logo_ico_32.ico">
     <link href="/client/css/Shifafo_style.css" rel="stylesheet">
+    <link href="/client/css/MyCart.css" rel="stylesheet">
     <title>My Cart</title>
 </head>
 <body>
@@ -41,8 +42,66 @@
     </header>
 
     <main>
-        <!-- You should remove this div because I was writting this only to vissible the page -->
-        <div style="height: 500px;"></div>
+        <div class="main-container">
+
+            <!-- Product Details Section -->
+            <div class="product-details">
+                <img src="https://thf.bing.com/th/id/OIP.63olI_arXH-D6uWEjIh1QgHaHa?w=208&h=208&c=7&r=0&o=5&cb=thfc1&dpr=1.5&pid=1.7"
+                    alt="Product Image">
+
+                <div class="product-info">
+                    <h2>Wireless Bluetooth Speaker</h2>
+                    <p class="price" style="text-decoration: line-through;">Rs:2560</p>
+                    <p> Discount:20%</p>
+                    <p class="price">Only Rs:2120</p>
+                    <p class="description">
+                        This powerful portable speaker delivers clear, rich sound. Perfect for both indoor and outdoor use.
+                    </p>
+
+                    <div class="quantity">
+                        <label for="quantity">Quantity:</label>
+                        <select id="quantity">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                        </select>
+                    </div>
+
+                    <button class="add-btn">Buy Now </button>
+                </div>
+            </div>
+
+            <!-- Receipt Section -->
+            <div class="receipt">
+                <h3>Order Summary</h3>
+                <div class="receipt-item">
+                    <p>  Product: </p> 
+                    <p> Bluetooth Speaker</p>
+                </div>
+
+                <div class="receipt-item">
+                <p> Unit Price: <p>
+                <p>Rs:2120</p>
+                </div>
+
+                <div class="receipt-item">
+                <p>Quantity</p>
+                <p>1</p>
+                </div>
+
+                <div class="receipt-item">
+                    <p>Delivery Fee:</p>
+                    <p>Only Rs:100</p>
+                </div>
+
+                <div class="total receipt-item">
+                <p>Total:</p>
+                <p>Rs:2220</p>
+                </div>
+            </div>
+
+        </div>
     </main>
     
     <footer>

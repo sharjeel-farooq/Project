@@ -13,21 +13,18 @@ function signUp(event)
     if (!username || !email || !password || !confirmPassword) 
     {
         message.innerText = "Please enter all the fields!";
-        alert('Please enter all the fields!');
         return;   
     }
 
     if (password != confirmPassword)
     {
         message.innerText = "Passwords do not match!";
-        alert('Passwords do not match!');
         return;
     }
 
     // Store data in local Storage
     localStorage.setItem("userData", JSON.stringify({username, email, password, confirmPassword}));
     message.innerText = "Sign Up successful!";
-    alert('Sign Up successful!');
     document.getElementById('message').style.color = 'green';
     document.querySelector('form').reset(); // Clear the form
     

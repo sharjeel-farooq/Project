@@ -21,7 +21,6 @@ function logIn(event)
     if (password == user.password && email == user.email)
     {
         message.innerText = "Log In successful!";
-        alert('Log In successful!');
         document.getElementById('message').style.color = 'green';
         
         // Wait 2 seconds (2000 milliseconds) before going to index.html
@@ -32,7 +31,6 @@ function logIn(event)
     else
     {
         message.innerText = "Invalid email or password!";
-        alert('Invalid email or password!');
         document.getElementById('message').style.color = 'red';
     }
 }

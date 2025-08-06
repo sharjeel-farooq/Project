@@ -1,0 +1,96 @@
+ main {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      margin: 0;
+      padding: 20px;
+      color: black;
+    }
+
+    .main-container {
+      display: flex;
+      width: 1200px;
+      gap: 40px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      padding: 20px;
+    }
+    .product-details img {
+      width: 150px;
+      height: 150px;
+      border-radius: 8px;
+    }
+
+    .product-info {
+      margin-top: 20px;
+    }
+
+    .product-info h2 {
+      margin: 0;
+    }
+
+    .price {
+      color: #e74c3c;
+      font-size: 1.5rem;
+      margin: 10px 0;
+    }
+
+    .description {
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    .quantity {
+      margin-bottom: 15px;
+    }
+
+    .quantity label {
+      font-weight: bold;
+      margin-right: 10px;
+    }
+
+    .quantity select {
+      padding: 5px;
+    }
+
+    .add-btn {
+      padding: 10px 20px;
+      background:#F4B400;
+      color: black;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    .add-btn:hover {
+      background: orange;
+      color: white;
+    }
+
+    .receipt {
+      flex: 1;
+      background: #f9f9f9;
+      padding: 20px;
+      border-left: 2px solid #ddd;
+      border-radius: 10px;
+    }
+
+    .receipt h3 {
+      margin-top: 0;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 10px;
+    }
+
+    .receipt-item {
+      display: flex;
+      justify-content: space-between;
+      margin: 45px 0;
+    }
+
+    .total {
+      font-weight: bold;
+      font-size: 18px;
+      margin-top: 20px;
+      border-top: 1px solid #ccc;
+      padding-top: 10px;
+    }
