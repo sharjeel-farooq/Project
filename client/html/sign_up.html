@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
-        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="/client/css/sign_up.css" rel="stylesheet">
     <link href="/client/css/Shifafo_style.css" rel="stylesheet">
+    <script src="/client/js/sign_up.js"></script>
     <title>Sign Up</title>
 </head>
 
@@ -48,14 +49,15 @@
                     <form>
                         <h2>Sign Up</h2>
                         <h3>Username</h3>
-                        <input type="text" placeholder="Username" class="sign-up-input">
+                        <input type="text" name="name" id="signUpUsername" placeholder="Username" class="sign-up-input">
                         <h3>Email</h3>
-                        <input type="text" placeholder="abc@gmail.com" class="sign-up-input">
+                        <input type="email" name="email" id="signUpEmail" placeholder="abc@gmail.com" class="sign-up-input">
                         <h3>New Password</h3>
-                        <input type="email" placeholder="Password" class="sign-up-input">
+                        <input type="password" name="password" id="signUpPassword" placeholder="Password" class="sign-up-input">
                         <h3>Comfirm Password:</h3>
-                        <input type="password" placeholder="Password" class="sign-up-input">
+                        <input type="password" name="ConfirmPassword" id="signUpConfirmPassword" placeholder="Confirm Password" class="sign-up-input">
                         <input type="submit" name="q" class="sign-up-input submit">
+                        <p id="message"></p>
                     </form>
                 </div>
             </div>
