@@ -21,8 +21,8 @@ main
 
 .log-in
 {
-    height: 550px;
-    width: 500px;
+    height: 500px;
+    width: 420px;
     background-color: white;
     opacity: 0.9;
     border-radius: 10px;
@@ -39,7 +39,7 @@ main
 
 .log-in-content
 {
-    height: 480px;
+    height: 450px;
     width: 380px;
     background-color: white;
     opacity: 0.9;
@@ -69,8 +69,7 @@ main
     background-color: white;
     opacity: 0.9;
     text-align: left;
-    margin-top: 60px;
-    padding-left: 10px;
+    margin-top: 35px;
     display: flex;
 }
 
@@ -86,9 +85,21 @@ main
     border: 1px solid black;
 }
 
+@keyframes borderAnimate
+{
+    from
+    {
+        border: 2px solid orange;
+    }
+    to
+    {
+        border: 2px solid orange;
+    }
+}
+
 .log-in-input:hover
 {
-    border: 2px solid orange;
+    animation: borderAnimate 3s ease-in 0.5s infinite normal;
 }
 
 .log-in-input::placeholder
@@ -98,9 +109,9 @@ main
 
 .login
 {
-    margin-top: 70px;
+    margin-top: 40px;
     margin-bottom: 20px;
-    width: 150px;
+    width: 350px;
     font-size: 16px;
     font-weight: bolder;
     background-color: orange;
@@ -112,6 +123,11 @@ main
 {
     background-color: darkorange;
     color: white;
+}
+
+#message
+{
+    padding-top: 20px;
 }
 
 .log-in-content a

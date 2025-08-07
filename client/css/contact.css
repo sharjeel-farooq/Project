@@ -86,9 +86,21 @@ main
     border: 1px solid black;
 }
 
+@keyframes borderAnimate
+{
+    from
+    {
+        border: 2px solid orange;
+    }
+    to
+    {
+        border: 2px solid orange;
+    }
+}
+
 .contact-input:hover
 {
-    border: 2px solid orange;
+    animation: borderAnimate 3s ease-in 0.5s infinite normal;
 }
 
 .contact-input::placeholder
@@ -100,7 +112,7 @@ main
 {
     margin-top: 30px;
     margin-bottom: 20px;
-    width: 150px;
+    width: 350px;
     font-size: 16px;
     font-weight: bolder;
     background-color: orange;

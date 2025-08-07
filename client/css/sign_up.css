@@ -21,7 +21,7 @@ main
 .sign-up
 {
     height: 550px;
-    width: 500px;
+    width: 450px;
     background-color: white;
     opacity: 0.9;
     border-radius: 10px;
@@ -45,6 +45,9 @@ main
     text-align: center;
     color: black;
     opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .sign-up-content form
@@ -74,6 +77,9 @@ main
 #message
 {
     color: red;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
 }
 
 .sign-up-input
@@ -113,7 +119,8 @@ main
 .submit
 {
     margin-top: 30px;
-    width: 150px;
+    margin-bottom: 15px;
+    width: 350px;
     font-size: 16px;
     font-weight: bolder;
     background-color: orange;
@@ -125,4 +132,15 @@ main
 {
     background-color: darkorange;
     color: white;
+}
+
+.sign-up-content a
+{
+    color: purple;
+    text-decoration: underline;
+}
+
+.sign-up-content p
+{
+    display: inline;
 }
