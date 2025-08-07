@@ -48,7 +48,7 @@ main {
     border-radius: 40%;
 }
 
-.nav-logo p
+.nav-logo a
 {
     padding-top: 10px;
     padding-left: 10px;
@@ -152,6 +152,12 @@ a
 a:hover
 {
     color:darkorange;
+}
+
+/* Our wesite name shifafo hover time color */
+.nav-logo a:hover
+{
+    color: white;
 }
 
 /* Main section */

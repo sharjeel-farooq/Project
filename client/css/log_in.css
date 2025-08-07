@@ -62,14 +62,16 @@ main
     font-size: 2rem;
 }
 
-.log-in-content h3
+.log-in-content label
 {
     font-size: 1rem;
+    font-weight: bold;
     background-color: white;
     opacity: 0.9;
     text-align: left;
     margin-top: 60px;
     padding-left: 10px;
+    display: flex;
 }
 
 .log-in-input
