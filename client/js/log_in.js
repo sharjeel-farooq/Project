@@ -33,6 +33,10 @@ function logIn(event)
         message.innerText = "Invalid email or password!";
         document.getElementById('message').style.color = 'red';
     }
+
+    localStorage.setItem("isLoggedIn", "true");
+    localStorage.setItem("loggedInUser", user.username);
+
 }
 
 document.addEventListener('DOMContentLoaded', function(){

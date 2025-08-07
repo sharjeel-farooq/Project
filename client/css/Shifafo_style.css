@@ -8,7 +8,7 @@
 
 
 html, body {
-    overflow-x: hidden;
+    overflow-x: clip;
 }
 
 body
@@ -17,17 +17,23 @@ body
     color: white;
 }
 
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
 main {
     background-color: #ebeaea;
 }
 .navbar
 {
     height: 80px;
-    background-color: black;
-    opacity: 0.8;
+    background-color: #4d4d4d;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    position: relative;
 }
 
 /* box1 */
@@ -103,6 +109,60 @@ main {
     color: black; 
 }
 
+.user-icon {
+    height: 20px;
+    width: 20px;
+}
+
+#user-info {
+    width: 100px;
+    position: relative;
+    margin-left: 110px;
+    margin-right: 0;
+    margin-bottom: 50px;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: none;
+}
+
+.user-info {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  padding-left: 2px;
+  width: 50px;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: rgb(58, 199, 197);
+  border: 1px solid black;
+  width: 60px;
+  padding: 5px;
+  z-index: 1000;
+  border-radius: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+.dropdown button {
+  background: none;
+  border: none;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.dropdown button:hover {
+  color: #ddd;
+}
+
 /* Box3 */
 .nav-buttons
 {
@@ -139,8 +199,7 @@ main {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: black;
-    opacity: 0.7;
+    background-color: #333333;
 }
 
 a
