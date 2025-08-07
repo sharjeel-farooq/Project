@@ -59,14 +59,16 @@ main
     opacity: 0.9;
 }
 
-.sign-up-content h3
+.sign-up-content label
 {
     font-size: 1rem;
+    font-weight: bold;
     background-color: white;
     opacity: 0.9;
     text-align: left;
     margin-top: 25px;
     padding-left: 10px;
+    display: flex;
 }
 
 #message
