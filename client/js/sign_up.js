@@ -27,7 +27,14 @@ function signUp(event)
     message.innerText = "Sign Up successful!";
     document.getElementById('message').style.color = 'green';
     document.querySelector('form').reset(); // Clear the form
+
+
+    // Set loggedin status
+    localStorage.setItem("isLoggedIn", "true");
+    localStorage.setItem("loggedInUser", username);
     
+
+
     // Wait 2 seconds (2000 milliseconds) before going to index.html
     setTimeout( function() {
         window.location.href="/client/html/index.html";

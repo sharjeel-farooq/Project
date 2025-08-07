@@ -10,6 +10,7 @@
     <link rel="icon" type="image/x-icon" href="/client/assets/logo_ico_32.ico">
     <link href="/client/css/Shifafo_style.css" rel="stylesheet">
     <script src="/client/js/Shifafo_javascript.js"></script>
+    <script src="/client/js/header.js"></script>
     <title>Shifafo</title>
 </head>
 
@@ -28,9 +29,19 @@
                 </div>
             </div>
 
-            <div class="nav-buttons">
-                <button onclick="window.location.href='sign_up.html'" class="signup-button button">Sign Up</button>
-                <button onclick="window.location.href='log_in.html'" class="Login-button button">Log In</button>
+
+            <div id="authButtons" class="nav-buttons">
+                <button onclick="window.location.href='sign_up.html'" id="signup-button" class="button">Sign Up</button>
+                <button onclick="window.location.href='log_in.html'" id="login-button" class="button">Log In</button>
+            </div>
+            <div id="user-info" class="user-info">
+                <span id="user-icon">
+                    <img src="/client/assets/profile.png" alt="User Icon" class="user-icon">
+                </span>
+                <span id="userName"></span>
+                <div id="dropdown" class="dropdown hidden">
+                    <button id="logoutButton">Logout</button>
+                </div>
             </div>
         </div>
 
