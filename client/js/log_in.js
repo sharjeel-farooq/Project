@@ -12,7 +12,6 @@ function logIn(event)
     if (!storedData)
     {
         message.innerText = "No account found. Please sign up first!";
-        alert('No account found. Please sign up first!');
     }
 
     let user = JSON.parse(storedData);
@@ -20,8 +19,9 @@ function logIn(event)
     // Check credentials
     if (password == user.password && email == user.email)
     {
-        message.innerText = "Log In successful!";
-        document.getElementById('message').style.color = 'green';
+        // Show success message with username
+        // document.querySelector('successUsername').textContent = username;
+        document.getElementById('successOverlay').style.display = 'flex';
         
         // Wait 2 seconds (2000 milliseconds) before going to index.html
         setTimeout( function() {
@@ -31,7 +31,6 @@ function logIn(event)
     else
     {
         message.innerText = "Invalid email or password!";
-        document.getElementById('message').style.color = 'red';
     }
 
     localStorage.setItem("isLoggedIn", "true");

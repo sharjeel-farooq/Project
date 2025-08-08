@@ -24,8 +24,6 @@ function signUp(event)
 
     // Store data in local Storage
     localStorage.setItem("userData", JSON.stringify({username, email, password, confirmPassword}));
-    message.innerText = "Sign Up successful!";
-    document.getElementById('message').style.color = 'green';
     document.querySelector('form').reset(); // Clear the form
 
 
@@ -33,7 +31,9 @@ function signUp(event)
     localStorage.setItem("isLoggedIn", "true");
     localStorage.setItem("loggedInUser", username);
     
-
+    // Show success message with username
+    document.getElementById('successUsername').textContent = username;
+    document.getElementById('successOverlay').style.display = 'flex';
 
     // Wait 2 seconds (2000 milliseconds) before going to index.html
     setTimeout( function() {

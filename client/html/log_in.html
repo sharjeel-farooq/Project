@@ -13,44 +13,6 @@
     <title>Log In</title>
 </head>
 <body>
-    <header>
-        <div class="navbar">
-            <div class="nav-logo">
-                <div class="logo"></div>
-                <a href="index.html">Shifafo</a>
-            </div>
-
-            <div class="nav-search">
-                <input type="search" placeholder="Search Shifafo" class="search-input">
-                <div class="search-icon">
-                    <i class="fa-solid fa-magnifying-glass icon-color"></i>
-                </div>
-            </div>
-
-
-            <div id="authButtons" class="nav-buttons">
-                <button onclick="window.location.href='sign_up.html'" id="signup-button" class="button">Sign Up</button>
-                <button onclick="window.location.href='log_in.html'" id="login-button" class="button">Log In</button>
-            </div>
-            <div id="user-info" class="user-info">
-                <span id="user-icon">
-                    <img src="/client/assets/profile.png" alt="User Icon" class="user-icon">
-                </span>
-                <span id="userName"></span>
-                <div id="dropdown" class="dropdown hidden">
-                    <button id="logoutButton">Logout</button>
-                </div>
-            </div>
-        </div>
-
-        <div class="panel">
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="ContactUs.html">Contact Us</a>
-            <a href="MyCart.html">My Cart</a>
-            <a href="#">Toggle Mode</a>
-        </div>
-    </header>
     <main>
         <div class="log-in-page">
             <div class="log-in">
@@ -70,56 +32,15 @@
                 </div>
             </div>
         </div>
+
+        <!-- Success Message Overlay -->
+        <div class="success-overlay" id="successOverlay">
+            <div class="success-message">
+                <i class="fas fa-check-circle"></i>
+                <h2>Log In Successfully!</h2>
+                <p>You will be redirected shortly.</p>
+            </div>
+        </div>
     </main>
-    <footer>
-        <div class="foot-panel1">
-            <ul>
-                <p>Get to Know Us</p>
-                <a>Careers</a>
-                <a>Blog</a>
-                <a>About Amazon</a>
-                <a>Investor Relations</a>
-                <a>Amazon Devices</a>
-                <a>Amazon Science</a>
-            </ul>
-            <ul>
-                <p>Make Money with Us</p>
-                <a>Sell products on Amazon</a>
-                <a>Sell on Shifafo Business</a>
-                <a>Sell apps on Shifafo</a>
-                <a>Become an Affiliate</a>
-                <a>Advertise Your Products</a>
-                <a>Self-Publish with Us</a>
-                <a>Host an Shifafo Hub</a>
-            </ul>
-            <ul>
-                <p>Shifafo Payment Products</p>
-                <a>Shifafo Business Card</a>
-                <a>Shop with Points</a>
-                <a>Reload Your Balance</a>
-                <a>Shifafo Currency Converter</a>
-            </ul>
-            <ul>
-                <p>Let Us Help You</p>
-                <a>Shifafo and COVID-19</a>
-                <a>Your Account</a>
-                <a>Your Orders</a>
-                <a>Shipping Rates & Policies</a>
-                <a>Returns & Replacements</a>
-                <a>Manage Your Content and Devices</a>
-                <a>Help</a>
-            </ul>
-        </div>
-        <div class="foot-panel2">
-            <div class="pages">
-                <a>Conditions of Use</a>
-                <a>Privacy Notice</a>
-                <a>Your Ads Privacy Choices</a>
-            </div>
-            <div class="copyright">
-                &#169; 2025, Shifafo.com, Inc. or its affiliates
-            </div>
-        </div>
-    </footer>
 </body>
 </html>
