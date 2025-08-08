@@ -118,11 +118,9 @@ main {
     width: 100px;
     position: relative;
     margin-left: 110px;
-    margin-right: 0;
     margin-bottom: 50px;
-    right: 0;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translate(-70%, -50%);
     display: none;
 }
 
