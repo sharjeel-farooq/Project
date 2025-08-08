@@ -53,8 +53,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Logout handler
     logoutBtn.addEventListener("click", function () {
-        localStorage.clear();
-        sessionStorage.clear();
+        localStorage.removeItem("isLoggedIn");
+        localStorage.removeItem("loggedInUser");
+        sessionStorage.removeItem("isLoggedIn");
+        sessionStorage.removeItem("loggedInUser");
         location.reload(); // Or redirect to login
     });
 });
