@@ -35,10 +35,10 @@ function signUp(event)
     document.getElementById('successUsername').textContent = username;
     document.getElementById('successOverlay').style.display = 'flex';
 
-    // Wait 2 seconds (2000 milliseconds) before going to index.html
+    // Wait 3 seconds (3000 milliseconds) before going to index.html
     setTimeout( function() {
         window.location.href="/client/html/index.html";
-    }, 2000);
+    }, 3000);
 }
 
 document.addEventListener('DOMContentLoaded', function(){
