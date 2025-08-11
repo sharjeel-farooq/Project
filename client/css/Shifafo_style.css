@@ -110,15 +110,16 @@ main {
 }
 
 .user-icon {
-    height: 20px;
-    width: 20px;
+    height: 50px;
+    width: 50px;
 }
 
 #user-info {
     width: 100px;
     position: relative;
-    margin-left: 110px;
+    margin-left: 160px;
     margin-bottom: 50px;
+    margin-top: 30px;
     top: 50%;
     transform: translate(-70%, -50%);
     display: none;
