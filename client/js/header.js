@@ -27,9 +27,15 @@ document.addEventListener('DOMContentLoaded', function () {
         if (signupBtn) signupBtn.style.display = "none";
         if (authButtonsWrapper) authButtonsWrapper.style.display = "none";
 
-        // Show user icon with name
-        if (userIcon) userIcon.style.display = "inline-block";
+        // Show user icon only (username will be in dropdown)
+        if (userIcon) userIcon.style.display = "flex";
         if (userNameSpan) userNameSpan.innerText = finalUsername;
+    } else {
+        // User is logged out - hide user icon and show login/signup buttons
+        if (userIcon) userIcon.style.display = "none";
+        if (loginBtn) loginBtn.style.display = "block";
+        if (signupBtn) signupBtn.style.display = "block";
+        if (authButtonsWrapper) authButtonsWrapper.style.display = "flex";
     }
 });
 
